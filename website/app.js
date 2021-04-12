@@ -1,10 +1,10 @@
 /* Global Variables */
-let apiKey = '&appid=4330aebd0857a0194ffb76c92d96b64e' // Personal API Key for OpenWeatherMap API
-let baseURL = 'http://api.openweathermap.org/data/2.5/weather?zip=';
+const apiKey = '&appid=4330aebd0857a0194ffb76c92d96b64e' // Personal API Key for OpenWeatherMap API
+const baseURL = 'http://api.openweathermap.org/data/2.5/weather?zip=';
 
 //Create a new data instance dynamically with JS
-let d = new Date();
-let newDate = d.getMonth()+1 +'.'+ d.getDate()+'.'+ d.getFullYear();
+const d = new Date();
+const newDate = d.getMonth()+1 +'.'+ d.getDate()+'.'+ d.getFullYear();
 
 
 // Event listener to add function to existing HTML DOM element
